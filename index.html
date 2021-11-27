@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1> Welcome To Your Drawing Web App</h1>
+        </header>
+        <aside>
+               <div class="drawing-options"> <p id="start">Start Drawing</p></div>
+                <div class="drawing-options"><p id="draw"> Draw</p></div>
+                <div class="drawing-options"><p id="change">Change Brush Colour
+                </p>
+            <input id="colour" name="colour" type="color"></div>
+                <div class="drawing-options"><p id="increase">Increase Brush Size</p>
+                <input id="size" name="number" type="number" value="5"> </div>
+                <div class="drawing-options"><p id="clear">Clear</p></div>
+        </aside>
+
+        <section id="drawing-board">
+        <canvas id="canvas">
+          
+        </canvas>
+        </section>
+    </main>
+    
+    <script src="index.js"></script>
+</body>
+</html>
